@@ -14,7 +14,7 @@ public struct stNextAI
     public e_State nextStatus;
     public stGetCustomData stSetAiData;
 }
-public class BaseAI : CacheObject
+public class BaseAI : BaseObject
 {
     //Dictionary<string,>
     private Animator Animation;//현재 애니메이션

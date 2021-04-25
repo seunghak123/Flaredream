@@ -63,6 +63,6 @@ public class PlayerAI : BaseAI
     }
     protected override void ProcessInterAct()
     {
-
+        return;
     }
 }
