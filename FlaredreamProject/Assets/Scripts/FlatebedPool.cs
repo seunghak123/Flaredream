@@ -6,9 +6,9 @@ using UnityEngine;
 class FlateMake
 {
     [SerializeField]
-    Flatebed instaiatebed;
+    public Flatebed instaiatebed;
     [SerializeField]
-    int count;
+    public int count;
 }
 public class FlatebedPool : MonoBehaviour
 {
@@ -30,9 +30,17 @@ public class FlatebedPool : MonoBehaviour
     {
         
     }
+    public void Awake()
+    {
+        InitPool();
+    }
     public void InitPool()
     {
-        
+        foreach (FlateMake flat in FlatPrefabLists)
+        {
+            for(int i=0;i<flat.count;i++)
+                Instantiate(flat.instaiatebed, this.transform);
+        }
     }
     public void MakePoolObject(E_FlatDirect type)
     {

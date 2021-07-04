@@ -15,8 +15,6 @@ public class Flatebed : MonoBehaviour
     public bool Alive = false;
     public E_FlatDirect flatdirect = E_FlatDirect.e_Forward;
     public float distance = 5.0f;
-    [SerializeField]
-    public int poolingcount = 5;
     public void ClearFlatbed()
     {
         this.gameObject.transform.position = Vector3.zero;

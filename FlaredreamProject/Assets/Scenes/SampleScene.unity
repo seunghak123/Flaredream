@@ -367,6 +367,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fb21bc7fb3bbb44864d14f2defb064, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  FlatPrefabLists:
+  - instaiatebed: {fileID: 0}
+    count: 0
+  - instaiatebed: {fileID: 0}
+    count: 0
+  - instaiatebed: {fileID: 0}
+    count: 0
+  - instaiatebed: {fileID: 0}
+    count: 0
+  - instaiatebed: {fileID: 0}
+    count: 0
 --- !u!4 &1180992165
 Transform:
   m_ObjectHideFlags: 0
